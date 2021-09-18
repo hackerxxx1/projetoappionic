@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core/dist/ionic/ionic.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core/css/ionic.bundle.css"/>
+  </head>
+  <body>
+    <ion-app>
+      <ion-menu side="start" content-id="mainid">
+      <ion-header>
+        <ion-toolbar>
+          <ion-title>menu da linda</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content >
+        <ion-list>
+          <ion-item>jean 1</ion-item>
+          <ion-item>jean 2</ion-item>
+          <ion-item>jean 3</ion-item>
+        </ion-list>
+      </ion-content>
+      </ion-menu>
+    
+      <ion-header>
+        <ion-toolbar color="light">
+          <ion-buttons slot="start">
+            <ion-menu-button auto-hide="false" id="mainid" ></ion-menu-button>
+          </ion-buttons>
+          <ion-title>Para a gatosa linda do carai</ion-title>
+          <ion-buttons slot="end">
+            <ion-button>
+            <ion-icon name="ellipsis-vertical"></ion-icon>
+            </ion-button>
+          </ion-buttons>
+        </ion-toolbar>
+
+      </ion-header>
+      <ion-content color="black" >
+       <img src="jean.jpeg" alt="some text">
+      </ion-content>
+      <ion-menu-controller></ion-menu-controller>
+      <ion-footer>
+        <ion-toolbar color="success">
+          <ion-title>JEAN VEM PRA CASA MAMAE, ADEUS KLEE</ion-title>
+        </ion-toolbar>
+      </ion-footer>    
+    </ion-app>  
+    <script src="script.js"></script>
+  </body>
+</html>
